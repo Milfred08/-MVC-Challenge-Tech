@@ -23,7 +23,7 @@ This is a full stack web application that was build using bycrypt, sequelize, se
 <a name="web-address"></a>
 ## 2. How to Get There
 
-### Open your favorite web browser and enter the following web address to start using the website. Dont forget to watch the features video below :).
+### Open your favorite web browser and enter the following web address to start using the website.
 
 coming soon...
 
