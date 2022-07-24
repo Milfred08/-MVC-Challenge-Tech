@@ -72,21 +72,11 @@ Application is both desktop and mobile friendly.
 
 ![step](./assets/images/view-dashboard-create-post-mobile.JPG?raw=true "view-dashboard-create-post-mobile.JPG")
 
-![step](./assets/images/view-dashboard-create-post-new-post.JPG?raw=true "view-dashboard-create-post-new-post.JPG")
-
-![step](./assets/images/view-dashboard-create-post-new-post-mobile.JPG?raw=true "view-dashboard-create-post-new-post-mobile.JPG")
-
 ### Edit Post
 
 ![step](./assets/images/view-dashboard-create-post-new-post-save-delete.JPG?raw=true "view-dashboard-create-post-new-post-save-delete.JPG")
 
 ![step](./assets/images/view-dashboard-create-post-new-post-save-delete-mobile.JPG?raw=true "view-dashboard-create-post-new-post-save-delete-mobile.JPG")
-
-### New Comment
-
-![step](./assets/images/new-comment-screen-added-desktop.JPG?raw=true "new-comment-screen-added-desktop.JPG")
-
-![step](./assets/images/new-comment-screen-added-mobile.JPG?raw=true "new-comment-screen-added-mobile.JPG")
 
 ### Post Deleted Dashboard Empty
 
