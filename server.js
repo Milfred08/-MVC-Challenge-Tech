@@ -50,7 +50,7 @@ issues and is compatible with the Sequelize ORM."
 // *** Initiate Express *** //
 const app = express();
 // Port start node js with express listening port
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 
 // *** Start of init express session cookies pass ***
 const sess = {
