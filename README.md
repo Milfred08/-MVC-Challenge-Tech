@@ -98,7 +98,6 @@ mit
 <a name="commandInstall"></a>
 ## 6. Install Command
 
-### Database dependency is --> mysql Ver 8.0.23 for Win64 on x86_64  
 ### npm install command will install javascript dependencies
 
 npm i
