@@ -1,6 +1,6 @@
 {
   "name": "mvc-challenge-tech-blog",
-  "version": "1.0.0",
+  "version": "16.16.0",
   "description": "Tech Blog Style Web Page using mvc methodology",
   "main": "server.js",
   "scripts": {
