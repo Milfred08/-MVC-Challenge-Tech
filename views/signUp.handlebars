@@ -1,24 +1,17 @@
-<section class="sign-in-page">
-    <div class="form-heading">
-        <h1>Sign Up</h1>
-    </div>
-    <div class="form-section">
-        <form class="signup-form">
-            <div>
-                <label for="username-signup">Select a Username</label>
-                <input type="text" class="entry-field" id="username-signup" />
-            </div>
-            <div>
-                <label for="password-signup">Select a password</label>
-                <input type="password" class="entry-field" id="password-signup" />
-            </div>
-            <div>
-                <button type="submit" class="login-signup-btn">Sign Up!</button>
-            </div>
-        </form>
-    </div>
 
-    <a href="/login" class="login-link">log in instead</a>
-</section>
-
-<script src="/javascript/signup.js"></script>
+<form class="signup-form">
+    <div>
+        <label for="username-signup">username:</label>
+        <input type="text" id="username-signup" />
+    </div>
+    <div>
+        <label for="password-signup">password:</label>
+        <input type="password" id="password-signup" />
+    </div>
+    <div class="wrapper">
+        <button class="btn btn-success btn-lg" type="submit">Sign up and log in!</button>
+    </div>
+</form>
+<!-- Only added to this handlebar as is where the logic is required for logging in -->
+<!-- Absolute path requiered in back end as js code is not to be sent to the client -->
+<script src="/javascript/sign-up.js"></script>

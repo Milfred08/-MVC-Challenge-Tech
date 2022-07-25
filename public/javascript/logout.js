@@ -1,16 +1,24 @@
-async function logout() {
+async function logout(event) {
+  event.preventDefault();
+  
     const response = await fetch('/api/users/logout', {
-        method: 'post',
-        headers: {
-            'Content-Type': 'application/json'
-        }
+      method: 'post',
+      headers: { 'Content-Type': 'application/json' }
     });
 
+  
     if (response.ok) {
-        document.location.replace('/');
+      //console.log("response of function log out good")
+      alert("Logging you out")
+     // document.location.replace('/login');
+      document.location.replace('/');
     } else {
-        alert(response.statusText);
+      //console.log("response of function log out bad")
+      //document.location.replace('/');
+      //document.location.replace('/login');
+      alert("You are already logged out")
+      //alert(response.statusText);
     }
-}
-
-document.querySelector('#logout').addEventListener('click', logout);
+  }
+  
+  document.querySelector('#logout').addEventListener('click', logout);

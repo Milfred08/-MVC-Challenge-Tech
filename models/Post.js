@@ -1,46 +1,45 @@
-const {
-    Model,
-    DataTypes
-} = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-
+// create our Post model
 class Post extends Model {}
 
-Post.init({
-    id: {
+Post.init(
+    {
+      id: {
         type: DataTypes.INTEGER,
         allowNull: false,
         primaryKey: true,
-        autoIncrement: true
-    },
-    title: {
+        autoIncrement: true,
+        onDelete: 'CASCADE'
+      },
+      title: {
         type: DataTypes.STRING,
-        allowNull: false,
-        validate: {
-            len: [1]
-        }
-    },
-    content: {
+        allowNull: false
+      },
+      contents: {
         type: DataTypes.STRING,
-        allowNull: false,
-        validate: {
-            len: [1]
-        }
-    },
-    user_id: {
+        allowNull: false
+        // validate: {
+        //   isURL: true
+        // }
+      },
+      user_id: {
         type: DataTypes.INTEGER,
         references: {
-            model: 'user',
-            key: 'id'
+          model: 'user',//joing user Model on id column
+          // association is still required at index.js of models
+          key: 'id'
         }
+      }
+    },
+    {
+      sequelize,
+      // what each of these metadata means?
+      freezeTableName: true,
+      underscored: true,
+      modelName: 'post'
     }
-}, {
-    sequelize,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'post'
-})
+  );
 
-
-module.exports = Post;
+  module.exports = Post;

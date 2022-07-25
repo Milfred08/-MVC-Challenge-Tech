@@ -1,9 +1,12 @@
+// Allow the usage as utility for authentication
+
+
 const withAuth = (req, res, next) => {
     if (!req.session.user_id) {
-        res.redirect('/login');
+      res.redirect('/login');
     } else {
-        next();
+      next();
     }
-};
-
-module.exports = withAuth;
+  };
+  
+  module.exports = withAuth;
