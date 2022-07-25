@@ -1,6 +1,6 @@
 {
   "name": "mvc-challenge-tech-blog",
-  "version": "16.16.0",
+  "version": "1.0.0",
   "description": "Tech Blog Style Web Page using mvc methodology",
   "main": "server.js",
   "scripts": {
@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": ""
   }
 }

@@ -25,7 +25,7 @@ This is a full stack web application that was build using bycrypt, sequelize, se
 
 ### Open your favorite web browser and enter the following web address to start using the website.
 
-coming soon...
+https://mvc-challenge-tech.herokuapp.com/
 
 
 <a name="usage"></a>
